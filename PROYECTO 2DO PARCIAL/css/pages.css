@@ -1,0 +1,101 @@
+.boton:hover {
+    box-shadow: inset 13em 0 0 0 #ffdc7f;
+}
+.button:hover,
+.button:focus {
+    box-shadow: inset -4em 0 0 0 #ffdc7f, inset 4em 0 0 0 #ffdc7f;}
+
+input[type="number"]:hoover{
+    box-shadow: inset 5em 0 0 0  #ffdc7f;
+    border-color: #ffdc7f;
+    color: #fd8128;
+    
+}
+
+
+button:hover{
+    border-color: #ffdc7f;
+    color: #fd8128;
+}
+
+
+a:hover {
+    border-color: #ffdc7f;
+    color: #fd8128;
+}
+
+input:hover{
+    border-color: #ffdc7f;
+    color: #fd8128;
+}
+
+body {
+    color: #ffa260;
+    background: #17181c;
+    font-size: 15px;
+    font-family: 'Caprasimo', cursive;
+    font-weight: lighter;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    box-shadow: #ffa260;
+    flex-wrap: wrap;
+    line-height: 1em;
+    
+}
+
+input {
+    background: none;
+    color:#ffa260 ;
+    border-style:ridge;
+    line-height: 1em;
+    margin: 0.5em;
+    padding: 1em 1em;
+    transition: 0.5s;
+}
+
+button {
+    background: none;
+    color: #ffa260;
+    border: transparent;
+    line-height: 1em;
+    margin: 0.5em;
+    padding: 1em 1em;
+    transition: 0.5s;
+}
+
+a {
+    background: none;
+    border: 1px solid;
+   
+    line-height: 4em;
+    margin: 0.5em;
+    padding: 1em 1em;
+    color: #ffa260;
+    transition: 0.5s;
+    text-decoration: none;
+}
+div{
+    background: none;
+    border: 1px solid;
+    border-radius: 10px;
+    line-height: 2em;
+    color: #ffa260;
+    margin: 10px;
+    
+}
+
+h1 {
+    line-height: 1em;
+    font-weight: bold;
+    font-size: 45px;
+    font-family: 'Caprasimo', cursive;
+    flex-wrap: wrap;
+    text-align: center;
+    
+    display: flex;
+
+}

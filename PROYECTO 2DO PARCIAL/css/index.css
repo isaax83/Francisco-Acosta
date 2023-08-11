@@ -1,0 +1,42 @@
+.boton:hover,
+.boton:focus {
+    box-shadow: inset -4em 0 0 0 #ffdc7f, inset 4em 0 0 0 #ffdc7f;
+
+}
+a:hover,
+a:focus {
+    border-color: #ffdc7f;
+    color: #ffa260;
+}
+
+body {
+    color: #ffa260;
+    background: #17181c;
+    font-family: 'Caprasimo', cursive;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    background: none;
+    border: 2px solid;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+    flex-wrap: wrap;
+    color: #ffa260;
+    transition: 0.25s;
+    text-decoration: none;
+}
+
+h1 {
+    font-weight: lighter;
+    font-family: 'Caprasimo', cursive;
+    flex-wrap: wrap;
+}
